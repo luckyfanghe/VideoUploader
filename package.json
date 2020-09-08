@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "description": "Video uploader",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "fine-uploader": "^5.16.2",
+    "rc-progress": "latest",
+    "react": "latest",
+    "react-awesome-modal": "^2.0.5",
+    "react-dom": "latest",
+    "react-fine-uploader": "^1.1.1",
+    "react-redux": "^7.2.1",
+    "react-slideshow-image": "^3.2.0",
+    "redux": "^4.0.5",
+    "url-loader": "^4.1.0"
+  }
+}

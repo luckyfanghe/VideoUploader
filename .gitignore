@@ -1,0 +1,14 @@
+/node_modules/
+app/static/javascript/bin/bundle.js
+/env/
+/.idea/
+app/static/files/*
+
+package-lock.json
+yarn.lock
+*pyc
+
+!app/static/files/.gitkeep
+
+.vscode
+
